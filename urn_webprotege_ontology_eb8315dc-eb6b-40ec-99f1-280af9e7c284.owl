@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:eb8315dc-eb6b-40ec-99f1-280af9e7c284#"
+     xml:base="urn:webprotege:ontology:eb8315dc-eb6b-40ec-99f1-280af9e7c284"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:eb8315dc-eb6b-40ec-99f1-280af9e7c284"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/type -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/type"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76lXnWk7tfSLfh297xPojL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76lXnWk7tfSLfh297xPojL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe"/>
+        <rdfs:label>Okul Öncesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AkHhr64sgcVzFDB5pyrfD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7AkHhr64sgcVzFDB5pyrfD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe"/>
+        <rdfs:label>Okul Çağı 6-10 Yaş</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8n49l91BQM6lH9AGOxswaQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8n49l91BQM6lH9AGOxswaQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVCC7gSBmkw9n0vxaVz9RW"/>
+        <dc:creator xml:lang="tr">Hatice Kübra Tongar</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description xml:lang="tr">Hasta annesinin ateşini kim düşürebilir? Bir itfaiyeci mi? Yoksa mikropları hapse atmak için bir polis mi gerekli? Ya da belki bir tamirci annesinin tüm yaralarını onarabilir? Sahi, hastalara şifa veren hangisi olabilir?</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059841610</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Hayykitap</dc:publisher>
+        <dc:rights xml:lang="tr">Hatice Kübra Tongar</dc:rights>
+        <dc:rights xml:lang="tr">Hayykitap</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786059841610&amp;tokat_search_field=4&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Edebiyatı</dc:subject>
+        <dc:title xml:lang="tr">Allah&apos;ı Arayan Çocuk</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islamic Children&apos;s Books</dc:type>
+        <rdfs:label>Allah&apos;ı Arayan Çocuk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92OZZZDQru7DmQv72Dh4eU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R92OZZZDQru7DmQv72Dh4eU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76lXnWk7tfSLfh297xPojL"/>
+        <dc:contributor xml:lang="tr">Gizem Şakar</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jion Sheibani</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description xml:lang="tr">Lili kumsalda dedesiyle oyun oynarken uzaklarda bir şey dikkatini çekti… Bir sürü Kutup Ayısı! Kutup Ayıları, erimekte olan buz parçalarının üstünde süzülerek kıyıya yanaşıyorlardı. Şehre gelmek istiyorlardı. Gelmek ve yerleşmek!</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786050835519</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Timaş Çocuk</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jion Sheibani</dc:rights>
+        <dc:rights xml:lang="tr">Timaş Çocuk</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=&amp;cwid=2&amp;keyword=9786050835519&amp;tokat_search_field=4&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Hikayeleri</dc:subject>
+        <dc:title xml:lang="tr">Bir Kutup Ayısı Kapını Çalarsa</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Picture Story Books</dc:type>
+        <rdfs:label>Bir Kutup Ayısı Kapını Çalarsa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KMwh1zTHvGsNjCy936IeU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9KMwh1zTHvGsNjCy936IeU">
+        <rdfs:label>Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9VPdTbD2y3hKo9YcNDwPtn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9VPdTbD2y3hKo9YcNDwPtn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVCC7gSBmkw9n0vxaVz9RW"/>
+        <dc:creator xml:lang="tr">Mahmut Bıyıklı</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</dc:date>
+        <dc:description xml:lang="tr">Teravihte gülen çocuklar,
+Bütün dualar ezberinde
+Ama melek mi gıdıklıyor ne
+Gülüyorlar namazın orta yerinde</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786056686337</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Okur Çocuk</dc:publisher>
+        <dc:rights xml:lang="tr">Mahmut Bıyıklı</dc:rights>
+        <dc:rights xml:lang="tr">Okur Çocuk</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=+9786056686337&amp;tokat_search_field=4&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Edebiyatı</dc:subject>
+        <dc:title xml:lang="tr">Teravihte Gülen Çocuklar</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islamic Children&apos;s Books</dc:type>
+        <rdfs:label>Teravihte Gülen Çocuklar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9fzhnRLPkCstIgXkVUD2yP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9fzhnRLPkCstIgXkVUD2yP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9KMwh1zTHvGsNjCy936IeU"/>
+        <rdfs:label>Children&apos;s Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9krXLABFSnb9CzsHiU2Mad -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9krXLABFSnb9CzsHiU2Mad">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76lXnWk7tfSLfh297xPojL"/>
+        <dc:creator xml:lang="tr">Leyla Çetin</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description xml:lang="tr">Dilerseniz korkularınızı kattığınız bir domates sosu yapıp leziz bir spagetti ile beraber yiyebilirsiniz. Belki de korkularınızı kattığınız çikolata sosunu pankeklerinizin üzerine dökerek yemek daha lezzetli olabilir.Haydi gel ve Çılgın Annem ile tanış. Annemin korkularımı nasıl yediğini gör ve annem ileçılgın maceralarıma sen de ortak ol!</dc:description>
+        <dc:format xml:lang="ta">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786056973277</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Zencefil Kitap</dc:publisher>
+        <dc:rights xml:lang="tr">Leyla Çetin</dc:rights>
+        <dc:rights xml:lang="tr">Zencefil Kitap</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786056973277&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Okuma Kitapları</dc:subject>
+        <dc:title xml:lang="tr">Annem Korkumu Yedi</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-6 Years Picture Books</dc:type>
+        <rdfs:label>Annem Korkumu Yedi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9pzFLQATEOS3jIjoMhEO69 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9pzFLQATEOS3jIjoMhEO69">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7AkHhr64sgcVzFDB5pyrfD"/>
+        <dc:contributor xml:lang="tr">Burcu Yılmaz</dc:contributor>
+        <dc:creator xml:lang="tr">Süleyman Bulut</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description xml:lang="tr">Atasözleri nasıl ortaya çıkmıştı, merak ettiniz mi hiç? Biliyoruz ki her atasözü, mutlaka bir olay sırasında, olayın kahramanlarından biri tarafından kullanıldı. Bugünkü değişmez, değiştirilemez hallerini ise yıllar içinde, kullanıla kullanıla aldı. Yazarımız Süleyman Bulut, atasözlerinin ortaya çıkmasını sağlayan olayları araştırdı, derledi, topladı ve çocuklar için yeniden kaleme aldı. 101 atasözünün birbirinden eğlenceli ve birbirinden ilginç 101 öyküsü, bu kitapta!</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750724701</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Can Çocuk Yayınları</dc:publisher>
+        <dc:rights xml:lang="tr">Can Çocuk Yayınları</dc:rights>
+        <dc:rights xml:lang="tr">Süleyman Bulut</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9789750724701&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Atasözleri</dc:subject>
+        <dc:title xml:lang="tr">101 Atasözü 101 Öykü</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Story</dc:type>
+        <rdfs:label>101 Atasözü 101 Öykü</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFiFPjoIU2ZH7EkIxTc9yb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFiFPjoIU2ZH7EkIxTc9yb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RQQWXQUTBCi5RW7TTCpFpe"/>
+        <dc:contributor xml:lang="tr">Ali Berktay</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duncan Beedie</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description xml:lang="tr">Evvel zaman içinde bir ayı vardı Monti’ydi onun adı. Gözlerini dikip bakmaya, herkesi seyretmeye bayılırdı. Aslında Ayı Monti kabalık etmek istemiyordu, ama öyle meraklıydı ki kendini tutamıyordu.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786052950425</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları - Çocuk - Okul Öncesi</dc:publisher>
+        <dc:rights xml:lang="tr">Duncan Beedie</dc:rights>
+        <dc:rights xml:lang="tr">İş Bankası Kültür Yayınları - Çocuk - Okul Öncesi</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786052950425&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Okul Öncesi Kitapları</dc:subject>
+        <dc:title xml:lang="tr">Utangaç Ayı Monti</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Story</dc:type>
+        <rdfs:label>Utangaç Ayı Monti</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9fzhnRLPkCstIgXkVUD2yP"/>
+        <rdfs:label>Type of Children&apos;s Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWCNLhHXN7KZmSSGOt9mjx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWCNLhHXN7KZmSSGOt9mjx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDK14k6S6aWLmDQxFbyrWdg"/>
+        <dc:contributor xml:lang="tr">Celal Üster</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roald Dahl</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</dc:date>
+        <dc:description xml:lang="tr">Romanın baş kahramanı Charlie, annesi, babası iki ninesi ve iki dedesi ile birlikte yaşayan bir çocuktur. Ve ne yazık ki geniş ailesine rağmen son derece fakirdir. Gözü tok, ailenin değerlerine önem veren bir karakter olarak sunulan Charlie’nin bu hayattaki en sevdiği şey ise çikolatadır.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789755100982</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Can Çocuk Yayınları</dc:publisher>
+        <dc:rights xml:lang="tr">Can Çocuk Yayınları</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roald Dahl</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9789755100982&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Edebiyatı</dc:subject>
+        <dc:title xml:lang="tr">Charlie&apos;nin Çikolata Fabrikası</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel</dc:type>
+        <rdfs:label>Charlie&apos;nin Çikolata Fabrikası</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXqlzrp1nDEJyx1mA2Wojm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXqlzrp1nDEJyx1mA2Wojm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDK14k6S6aWLmDQxFbyrWdg"/>
+        <dc:contributor xml:lang="tr">Zeynep Kürük</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jo Cotterill</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description xml:lang="tr">Calypso 10 yaşında bir kız çocuğu. Kitaplar tüm dünyası. Annesini kanserden kaybetmiş ve babası ile yaşıyor. Babası içsel bir güce ve güçlü olmaya kafayı takmıştır. Olayları soğukkanlı karşılar, eşinin ölümünde bile ağlamamıştır. Calypso’ya da durmadan içsel olarak güçlü olmayı ve yalnızken mutlu olmayı telkin eder.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786050825640</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Genç Timaş</dc:publisher>
+        <dc:rights xml:lang="tr">Genç Timaş</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jo Cotterill</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786050825640&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Children&apos;s literature</dc:subject>
+        <dc:title xml:lang="tr">Limon Kütüphanesi</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel</dc:type>
+        <rdfs:label>Limon Kütüphanesi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfMrLluFpcht13RjdlNxg8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfMrLluFpcht13RjdlNxg8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7AkHhr64sgcVzFDB5pyrfD"/>
+        <dc:contributor xml:lang="tr">Cemal Süreya</dc:contributor>
+        <dc:contributor xml:lang="tr">Tomris Uyar</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antoine de Saint-Exupery</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description xml:lang="tr">&quot;Hoşça git,&quot; dedi tilki. &quot;Vereceğim sır çok basit: İnsan ancak yüreğiyle baktığı zaman doğruyu görebilir. Gerçeğin mayası gözle görülmez.&quot; Küçük Prens unutmamak için tekrarladı: &quot;Gerçeğin mayası gözle görülmez.&quot;</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750724435</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Can Çocuk Yayınları</dc:publisher>
+        <dc:rights xml:lang="tr">Antoine de Saint-Exupery</dc:rights>
+        <dc:rights xml:lang="tr">Can Çocuk Yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=&amp;cwid=2&amp;keyword=+9789750724435&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Çocuk Edebiyatı</dc:subject>
+        <dc:title xml:lang="tr">Küçük Prens</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel</dc:type>
+        <rdfs:label>Küçük Prens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmN08IT546n5viID5AyJpT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmN08IT546n5viID5AyJpT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RQQWXQUTBCi5RW7TTCpFpe"/>
+        <dc:contributor xml:lang="tr">Meltem Aydın</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alison Green</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description xml:lang="tr">Axel Scheffler’in Önsözü ve 38 çizerin resimleriyleHerkesin iyi ve nazik olduğu bir dünya hayal edin. Bunu nasıl gerçekleştirebiliriz? İyimser düşüncelerle dolu olan bu kitap, ne kadar küçük ya da çekingen olursak olalım, dünyayı daha iyi bir yere çevirebileceğimizi gösteriyor.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257999830</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">İş Bankası Kültür Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alison Green</dc:rights>
+        <dc:rights xml:lang="tr">İş Bankası Kültür Yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786257999830&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Okul Öncesi</dc:subject>
+        <dc:title xml:lang="tr">İyilik</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education Activity Books</dc:type>
+        <rdfs:label>İyilik</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK14k6S6aWLmDQxFbyrWdg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK14k6S6aWLmDQxFbyrWdg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe"/>
+        <rdfs:label>Gençlik 10+ Yaş</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWELok7oEP5AssPyF1CMKg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWELok7oEP5AssPyF1CMKg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7AkHhr64sgcVzFDB5pyrfD"/>
+        <dc:creator xml:lang="tr">İbrahim Örs</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description xml:lang="tr">Duygu ve Selçuk, Gölüstü kasabasının mutlu çocuklarından sadece ikisi. Çok iyi arkadaşlar. En çok sevdikleri şey göl kenarına gidip dürbünle gölün uzak noktalarını izlemek. Bir gün yine dürbünle gölü seyrederken, kasabalarında kamp yapan bir turistin, gölün ortasında garip bir şeyler yaptığını görürler. Adam sanki gölün ortasında bir yere, orayı tekrar bulmak için işaret dubası bırakmıştır. Bu olayı gördükten sonra gazetede, kasabalarının tarihi eserler anlamında zengin bir bölge olduğunu okurlar. Ve şüphelenmeye başlarlar. Başta kimse onlara inanmaz ama turistin gitgide tuhaflaşan hareketleri tüm kasaba halkını, Duygu ve Selçuk öncülüğünde bir araştırma yapmaya iter. Duygu ile Selçuk’un bu konudaki en büyük yardımcıları ise, çok sevdikleri köpekleri olacaktır.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786059545327</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Nemesis Kitap</dc:publisher>
+        <dc:rights xml:lang="tr">Nemesis Kitap</dc:rights>
+        <dc:rights xml:lang="tr">İbrahim Örs</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786059545327&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Edebiyatı</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Göl Çocukları</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Story</dc:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Göl Çocukları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDs6UsPstfn1Tm8xrUyJQLq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDs6UsPstfn1Tm8xrUyJQLq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R76lXnWk7tfSLfh297xPojL"/>
+        <dc:creator xml:lang="tr">Kardelen Özdemir</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</dc:date>
+        <dc:description xml:lang="tr">Bütün çocukların belki de hayatlarında hiç unutamayacakları gün, okula ilk gittikleri gündür. Kalpleri heyecanla çarpar, avuç içleri terler ve onu okula götüren büyüğünün elini sımsıkı kavrar. Ne heyecanlı bir andır kapıdan bahçeye atılan ilk adım. Okul binası dev gibi gelir, öğretmenler büyülü bir dünyanın bekçileri gibidir; çocukların gözlerinde büyürler düşündükçe.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786057764737</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yeni İnsan Yayınevi</dc:publisher>
+        <dc:rights xml:lang="tr">Kardelen Özdemir</dc:rights>
+        <dc:rights xml:lang="tr">Yeni İnsan Yayınevi</dc:rights>
+        <dc:source rdf:resource="https://www.dr.com.tr/kitap/mutluluk-okulu/kardelen-ozdemir/cocuk-ve-genclik/okul-oncesi/3-6-yas-resimli-kitaplar/urunno=0001913285001"/>
+        <dc:subject xml:lang="tr">Okuma Kitapları</dc:subject>
+        <dc:title xml:lang="tr">Mutluluk Okulu</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3-6 Years Picture Books</dc:type>
+        <rdfs:label>Mutluluk Okulu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQQWXQUTBCi5RW7TTCpFpe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQQWXQUTBCi5RW7TTCpFpe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe"/>
+        <rdfs:label>Okul Öncesi 6 Ay-5 Yaş</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVCC7gSBmkw9n0vxaVz9RW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVCC7gSBmkw9n0vxaVz9RW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBoi8FtzX92PhczDS44cXYe"/>
+        <rdfs:label>İslami Çocuk Kitapları</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVuKB17mu0Otbwy7mWkJ2U -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVuKB17mu0Otbwy7mWkJ2U">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RQQWXQUTBCi5RW7TTCpFpe"/>
+        <dc:contributor xml:lang="tr">Derya Çebi</dc:contributor>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Stratton Would</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</dc:date>
+        <dc:description xml:lang="tr">Berk, geceleri gökyüzünü pırıl pırıl aydınlatan Ay&apos;a hayrandır. Ay&apos;a bakarak uykuya dalarken güzel hayaller kurar. En büyük hayali de astronot olmaktır. Ama bir gece, bir de bakar ki, gözkyüzü bomboş, Ay&apos;ın yerinde yeller esiyor. Büyük bir üzüntüye kapılan Berk, Ay&apos;ı birilerinin çaldığını düşünüp aramaya koyulur.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750821615</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Yapı Kredi Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helen Stratton Would</dc:rights>
+        <dc:rights xml:lang="tr">Yapı Kredi Yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9789750821615&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Short stories</dc:subject>
+        <dc:title xml:lang="tr">Ay&apos;ı Kim Çaldı?</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Education Activity Books</dc:type>
+        <rdfs:label>Ay&apos;ı Kim Çaldı?</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rpz8wgzbVKp5FylQ7p0vkg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rpz8wgzbVKp5FylQ7p0vkg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RVCC7gSBmkw9n0vxaVz9RW"/>
+        <dc:creator xml:lang="tr">Semine Demirci</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description xml:lang="tr">Odadan gelen fısıltılara kulak kabarttı. Yatmak üzere olan kızının sesini duyabiliyordu. Anlam veremediği sözler fısıldıyordu. Kapıyı yavaşça araladı. Minik kız ellerini açmış dua ediyordu. Yavaşça yanına vardı. Saçlarını okşudaı. Bu nasıl bir dua? diye sordu. Ben de böyle dua etmek istiyorum. Küçük kız cevap verdi: Ben harfleri söylüyorum. Allah harfleri bir araya getirip benim için dua yapacak.</dc:description>
+        <dc:format xml:lang="tr">Baskı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789758771011</dc:identifier>
+        <dc:language xml:lang="tr">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Çilek Kitaplar</dc:publisher>
+        <dc:rights xml:lang="tr">Semine Demirci</dc:rights>
+        <dc:rights xml:lang="tr">Çilek Kitaplar</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=+9789758771011&amp;tokat_search_field=4&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">İslam ve Çocuk</dc:subject>
+        <dc:title xml:lang="tr">Çocuğumla Her Güne Bir Dua</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Islamic Children&apos;s Books</dc:type>
+        <rdfs:label>Çocuğumla Her Güne Bir Dua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RwhajR3RdMKRLJSdLD7IB2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RwhajR3RdMKRLJSdLD7IB2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDK14k6S6aWLmDQxFbyrWdg"/>
+        <dc:creator xml:lang="tr">Anıl Basılı</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description xml:lang="tr">Orman halkı gür ve uzun saçlarıyla meşhur. Nohut Adam ise orman halkından çok farklı. Onun hiç saçı yok. Taş gibi göbeği, kısa kolları ve gözlüklerinin arkasına gizlenen masmavi gözleri var. Onu kendilerinden farklı görenlerden, aynalardan ve bir türlü barışamadığı görünümünden kaçıyor. Kendi tasarladığı ve kulaklarını dışarıda bırakmayacak şekilde kafasını örten şapkaların altına saklanıyor.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baskı</dc:format>
+        <dc:identifier xml:lang="ta">9786050834475</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher xml:lang="tr">Timaş Çocuk</dc:publisher>
+        <dc:rights xml:lang="tr">Anıl Basılı</dc:rights>
+        <dc:rights xml:lang="tr">Timaş Çocuk</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?_f=1&amp;the_page=1&amp;cwid=2&amp;keyword=9786050834475&amp;tokat_search_field=1&amp;order=0&amp;command=Tara#alt"/>
+        <dc:subject xml:lang="tr">Çocuk Edebiyatı</dc:subject>
+        <dc:title xml:lang="tr">Nohut Adam</dc:title>
+        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Novel</dc:type>
+        <rdfs:label>Nohut Adam</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
